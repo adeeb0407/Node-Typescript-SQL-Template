@@ -1,4 +1,5 @@
 # Node-Typescript-SQL-Template
+# AWS ec2 NodeJS App Deployment Procedure
 
 Install nodejs version 16
 
