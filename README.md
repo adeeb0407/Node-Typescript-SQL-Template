@@ -46,3 +46,23 @@ start the service
 sudo systemctl enable NodeServer.service
 sudo systemctl start NodeServer.service
 ```
+
+#Reverse Proxy with Ningix
+
+```
+sudo amazon-linux-extras install nginx1 -y
+sudo systemctl enable nginx
+sudo systemctl start nginx
+```
+
+```
+sudo vim /etc/nginx/nginx.conf
+```
+
+```
+server {
+  location / {
+        proxy_pass http://localhost:8080;
+  }
+}
+```
