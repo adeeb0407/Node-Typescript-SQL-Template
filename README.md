@@ -47,6 +47,12 @@ sudo systemctl enable NodeServer.service
 sudo systemctl start NodeServer.service
 ```
 
+Check logs of the App
+
+```
+sudo /var/log/messages
+```
+
 #Reverse Proxy with Ningix
 
 ```
