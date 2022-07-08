@@ -72,3 +72,6 @@ server {
   }
 }
 ```
+
+#alternative
+`https://www.youtube.com/watch?v=adQDNRZ59r0`
